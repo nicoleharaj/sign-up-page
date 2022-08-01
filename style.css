@@ -98,9 +98,9 @@ a {
   border-bottom: 1px solid var(--error);
 }
 
-.name-section {
+.grouped-section {
   display: flex;
-  gap: 40px;
+  gap: 20px;
 }
 
 button {

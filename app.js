@@ -5,7 +5,7 @@ let onChange = () => {
   if (confirm.value === password.value) {
     confirm.setCustomValidity('');
   } else {
-    confirm.setCustomValidity('Passwords do not match');
+    confirm.setCustomValidity('Passwords do not match.');
   }
 }
 

@@ -4,6 +4,7 @@
   --primary: rgb(33, 33, 33);
   --secondary: rgb(72, 72, 72);
   --accent: rgb(193, 193, 193);
+  --error: rgb(218, 92, 92);
   --dark: rgb(0, 0, 0);
   --footer-height: 35px; 
 }
@@ -87,6 +88,14 @@ a {
   border-bottom: 1px solid var(--accent);
   padding: 30px 0 10px 0;
   width: 100%;
+}
+
+.touched:required:invalid {
+  border-bottom: 1px solid var(--error);
+}
+
+.submitted:required:invalid {
+  border-bottom: 1px solid var(--error);
 }
 
 .name-section {
